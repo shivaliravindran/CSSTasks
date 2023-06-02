@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <style>
+            img{
+                border-radius:50%;
+                border: 5 px solid transparent;
+                border-color: black;
+                height: 150px;
+                width: 150px;
+                }
+            form{
+                background-color: #fefefe;
+                margin: 5% auto 15% auto;
+                border: 1px solid #888;
+                width: 60%;
+            }
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                }
+            .cancel
+            {
+                width: auto;
+                padding: 10px 18px;
+                background-color: #f44336;
+            }
+            span.psw {
+                float: right;
+                padding-top: 16px;
+                }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+            <br>
+            <center><img  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_85FwL1n3RRU-7Tj0Pw7bTFCQy5JAUCrFhrRrAatLQHQoPH99"></center>
+            </div>
+            <div style="padding: 16px;">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember">Remember Me
+                </label>
+                </div>
+            </div>
+            <div style="padding: 16px; background-color: #f1f1f1;">
+                <button type="button" class="cancel">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+                </form>
+        </form>
+    </body>
+</html>
